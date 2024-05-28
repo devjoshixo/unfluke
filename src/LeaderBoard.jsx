@@ -129,9 +129,20 @@ const LeaderBoard = () => {
     <div className={classes.wrapper}>
       <h1 class='text-5xl text-gray-800 mb-6'>LeaderBoard</h1>
       <div class='relative overflow-x-auto shadow-md sm:rounded-lg w-9/12'>
-        <div class='w-full bg-indigo-900 text-white flex flex-row px-5 py-2'>
-          <h2 class='text-4xl'>Basic BackTest</h2>
+        <div class='w-full bg-indigo-900 text-white flex flex-column justify-between px-5 py-2'>
+          <h2 class='text-4xl'>Basic Backtest</h2>
+          <div class='border-white border h-9 flex'>
+            <div class='border-white border-r h-full p-1'>
+              <h2>slippage</h2>
+            </div>
+            <div class='h-full p-1'>
+              <select name='' id=''>
+                <option value=''>0%</option>
+              </select>
+            </div>
+          </div>
         </div>
+
         <table class='w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400'>
           <thead class='text-xs text-white uppercase bg-indigo-900 bg-gray-50'>
             <tr>
