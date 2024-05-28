@@ -127,7 +127,7 @@ const LeaderBoard = () => {
 
   return (
     <div className={classes.wrapper}>
-      <h1 class='text-5xl text-gray-800 mb-6 font-extrabold'>LeaderBoard</h1>
+      <h1 class='text-5xl text-gray-800 mb-6 font-extrabold'>LeaderBoards</h1>
       <div class='relative overflow-x-auto shadow-md sm:rounded-lg w-9/12'>
         <div class='w-full bg-indigo-900 text-white flex flex-column justify-between px-5 py-2'>
           <h2 class='text-4xl'>Basic Backtest</h2>
