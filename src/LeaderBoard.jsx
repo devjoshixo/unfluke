@@ -138,13 +138,13 @@ const LeaderBoard = () => {
             <div class='h-full p-1 w-20 '>
               <select class='w-full text-center'>
                 <option class='bg-white' value='1'>
+                  0%
+                </option>
+                <option class='bg-white' value='1'>
+                  0.5%
+                </option>
+                <option class='bg-white' value='1'>
                   1%
-                </option>
-                <option class='bg-white' value='1'>
-                  2%
-                </option>
-                <option class='bg-white' value='1'>
-                  3%
                 </option>
               </select>
             </div>
