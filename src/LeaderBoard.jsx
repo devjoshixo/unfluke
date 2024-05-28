@@ -127,10 +127,9 @@ const LeaderBoard = () => {
 
   return (
     <div className={classes.wrapper}>
-      {' '}
       <div class='relative overflow-x-auto shadow-md sm:rounded-lg w-9/12  flex flex-row items-center'>
         <table class='w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400'>
-          <thead class='text-xs text-gray-700 uppercase bg-yellow-300'>
+          <thead class='text-xs text-white uppercase bg-indigo-900'>
             <tr>
               {columns.map((col) => {
                 return (

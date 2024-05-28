@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav class='bg-white border-gray-200 '>
         <div class='flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4'>
           <img
-            src='https://flowbite.com/docs/images/logo.svg'
+            src='../public/cropped_unfluke_full.148e5bfc.png'
             class='h-8'
             alt='Flowbite Logo'
           />
