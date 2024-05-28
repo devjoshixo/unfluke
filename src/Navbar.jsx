@@ -37,7 +37,7 @@ const Navbar = () => {
                   class='text-gray-900 dark:text-white hover:underline'
                   aria-current='page'
                 >
-                  Home
+                  LeaderBoard
                 </a>
               </li>
               <li>
@@ -45,7 +45,7 @@ const Navbar = () => {
                   href='#'
                   class='text-gray-900 dark:text-white hover:underline'
                 >
-                  Company
+                  Historical Trading
                 </a>
               </li>
               <li>
@@ -53,7 +53,7 @@ const Navbar = () => {
                   href='#'
                   class='text-gray-900 dark:text-white hover:underline'
                 >
-                  Team
+                  Historical Chart
                 </a>
               </li>
               <li>
@@ -61,7 +61,47 @@ const Navbar = () => {
                   href='#'
                   class='text-gray-900 dark:text-white hover:underline'
                 >
-                  Features
+                  Scanners
+                </a>
+              </li>
+              <li>
+                <a
+                  href='#'
+                  class='text-gray-900 dark:text-white hover:underline'
+                >
+                  Alerts
+                </a>
+              </li>
+              <li>
+                <a
+                  href='#'
+                  class='text-gray-900 dark:text-white hover:underline'
+                >
+                  Basic Backtest
+                </a>
+              </li>
+              <li>
+                <a
+                  href='#'
+                  class='text-gray-900 dark:text-white hover:underline'
+                >
+                  Advanced Backtest
+                </a>
+              </li>
+              <li>
+                <a
+                  href='#'
+                  class='text-gray-900 dark:text-white hover:underline'
+                >
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a
+                  href='#'
+                  class='text-gray-900 dark:text-white hover:underline'
+                >
+                  My Earnings
                 </a>
               </li>
             </ul>

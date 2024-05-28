@@ -135,15 +135,23 @@ const LeaderBoard = () => {
             <div class='border-white border-r h-full p-1'>
               <h2>slippage</h2>
             </div>
-            <div class='h-full p-1'>
-              <select name='' id=''>
-                <option value=''>0%</option>
+            <div class='h-full p-1 w-20 '>
+              <select class='w-full text-center'>
+                <option class='bg-white' value='1'>
+                  1%
+                </option>
+                <option class='bg-white' value='1'>
+                  2%
+                </option>
+                <option class='bg-white' value='1'>
+                  3%
+                </option>
               </select>
             </div>
           </div>
         </div>
 
-        <table class='w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400'>
+        <table class='w-full text-sm text-left rtl:text-right text-gray-500 '>
           <thead class='text-xs text-white uppercase bg-indigo-900 bg-gray-50'>
             <tr>
               {columns.map((col) => {

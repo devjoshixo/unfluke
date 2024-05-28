@@ -5,3 +5,11 @@
   justify-content: center;
   margin: 2rem 0;
 }
+
+.wrapper select {
+  background-color: #312e81;
+}
+
+.wrapper option {
+  background-color: white;
+}
